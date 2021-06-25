@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: #000;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    background-color: #12af9a;
+    padding: 0.9375rem 0.625rem;
+    border: none;
+    border-radius: 0.625em;
+    color: #fff;
+    cursor: pointer;
+}
+.btn a{
+    color: inherit;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.width {
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+header nav ul li{
+    display: inline;
+    padding: 15px 25px;
+}
+header nav ul li a{
+    color: #000 ;
+}
+header nav ul li i{
+    padding: 0 5px;
+}
+nav{
+    overflow: hidden;
+}
+.dropbtn{
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+.dropdown-content{
+    max-width: 200px;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+.dropdown-content p{
+    font-size: small;
+    color: rgba(0, 0, 0, .6);
+    padding: 5px;
+}
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    padding: 10px 08px;
+}    
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.show{
+    display: block;
+}
+nav ul li:nth-child(4){
+    border-left: 2px solid #ddd;
+    font-weight: bold;
+}
+.hero1{
+    background-image: url(img/hero1.png);
+}
+.hero2{
+    background-image: url(img/hero2.png);
+}
+.hero3{
+    background-image: url(img/hero3.jpg);
+}
+.hero4{
+    background-image: url(img/hero4.jpg);
+}
+.slider-items {
+    background-position: 50%;
+    background-size: cover;
+    height: 456px;
+}
+
+.hero-right{
+    margin: 120px 20px;
+    padding: 30px 40px;
+    background-color: #fff;
+    color: #000;
+    max-width: 50ch;
+}
+.hero-right h1{
+    max-width: 80%;
+    line-height:1.5;
+}
+.hero-right p{
+    padding: 10px 0px;
+    font-size: small;
+    line-height:1.5;
+}
+.hero-left{
+    color: #fff;
+    margin: 150px 0 0 0;
+    padding: 30px 40px;
+    position: relative;
+}
+.hero-left h2{
+    padding: 0 20px;
+    font-weight: normal;
+    max-width: 50ch;
+    text-align: justify;
+    line-height: 1.5;
+}
+.hero-left button{
+    max-width: 100%;
+    line-height: 2;
+    padding: 0 20px;
+    background: none;
+    border: none;
+    color: inherit;
+    position: absolute;
+    right: 35px;
+}
+.hero-left button a{
+    color: inherit;
+}
+.project{
+    margin-top: 50px;
+}
+.project-row{
+    margin: 35px 0;
+}
+.project-card {
+    margin: 0 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.project-card-content {
+    padding: 15px;
+    align-items: center;
+}
+.project-card-content h2{
+    margin-bottom: 30px;
+}
+.project-card-content p{
+    margin-top: 10px;
+}
+.w{
+    width: 15px;
+    margin-left: 100px;
+}
+.covid-info{
+    background-color: #c0c0c0;
+    padding: 50px 30px;
+}
+.covid-info h2{
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.covid-info-list{
+    background-color: #fff;
+    padding: 25px 25px 15px 25px;
+}
+.covid-info-list li{
+    list-style: disc;
+    padding: 7px 0;
+}
+.covid-info p{
+    margin-top: 25px;
+}
+.covid-banner{
+    background-color: #12af9a;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    color: #fff;
+    margin-top: 40px;
+}
+.covid-banner img{
+    width: 250px;
+}
+.fcw{
+    color: #fff;
+}
+.ww{
+    width: 35px;
+    margin-right: 10px;
+}
+.bottom-banner{
+    background-color:#c0c0c0 ;
+}
+.bottom-banner h2{
+    line-height: 50px;
+    font-weight: normal;
+}
+.bottom-banner h4{
+    font-weight: normal;
+    margin: 30px 0;
+}
+.www{
+    background-color: #fff;
+    padding: 5px;
+    width: 45px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+footer{
+    line-height: 2;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li a{
+    color: #000;
+}
+.basis{
+    flex-basis: 100%;
+}
+footer img{
+    max-width: 130px;
+    margin: 25px 10px 0 0;
+}
+.footer-bottom{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+}
+.mt-15{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+    background: red;
+
+    }
+}
