@@ -8,6 +8,10 @@
 a{
     color: #000;
 }
+button{
+    background: none;
+    border: none;
+}
 
 body{
     font-family: 'Lato', sans-serif;
@@ -215,6 +219,48 @@ nav ul li:nth-child(4){
     width: 35px;
     margin-right: 10px;
 }
+.split{
+    flex: 50%;
+    padding: 15px;
+}
+.success-stories{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.success-stories-img{
+    width: 100%;
+}
+.success-stories-content h1{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.split h2{
+    margin: 25px 0;
+}
+.success-stories-content p{
+    line-height: 1.5;
+    font-size: 18px;
+    font-style: italic;
+}
+.success-stories button{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 25px;
+}
+.text-align-center{
+    text-align: center;
+}
+.btn h2{
+    font-weight: normal;
+    padding: 0 25px;
+}
+.dream{
+    margin: 25px 0;
+}
+
+
 .bottom-banner{
     background-color:#c0c0c0 ;
 }
