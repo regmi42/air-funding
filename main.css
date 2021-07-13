@@ -159,7 +159,7 @@ nav ul li:nth-child(4){
     color: inherit;
 }
 .project{
-    margin-top: 50px;
+    margin: 50px auto;
 }
 .project-row{
     margin: 35px 0;
